@@ -1,5 +1,8 @@
-Primeiro, ter instalado o Node.js na máquina, pois, vamos utilizar o comando
-" npm install -g @angular/cli " no cmd.
-Segundo, ir até a pasta que preferir para executar o comando "ng new nomeprojeto", ele vai perguntar se quer ter mais informações no strict do angular,
-só apertar Yes, depois disso, pede sobre adicionar o angular routing, pode coloca yes tbm
-e por último, selecionar o formato de folha de estilo, esse projeto utiliza o SCSS
+Primeiro, ter instalado o Node.js na máquina, pois, vamos utilizar o comando " npm install ",
+
+dentro da pasta escolhida para o projeto, pois é instalado o node_modules.
+
+Depois, para instalar o ANGULAR CLI, executamos no cmd o comando " npm install -g @angular/cli ".
+ainda no CMD, precisamos executar o servidor do Angular CLI usando o comando,
+
+"ng serve --open" para selecionar a porta http://localhost:4200/
